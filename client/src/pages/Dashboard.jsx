@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getUserById } from "./api/user";
+import { getUserById } from "../api/user";
 
 function Dashboard() {
   const [user, setUser] = useState(null);
